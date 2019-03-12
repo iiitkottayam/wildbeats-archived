@@ -1,0 +1,48 @@
+
+.shine
+{
+    font-size: 2.5em;
+    width: 100%;
+    height: auto;
+    padding: auto;
+    text-align: center;
+    color: green;
+    background: green -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #87ceeb)) 0 0 no-repeat;
+    -webkit-background-size: 125px;
+    
+    color: rgba(255, 255, 255, 0.1);
+    -webkit-background-clip: text;
+    
+    -webkit-animation-name: shine;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+
+}
+
+@-webkit-keyframes shine
+{
+    0%
+    {
+        background-position: top right;
+    }
+    100%
+    {
+        background-position: top left;
+    }
+}
+#a
+{
+    line-height: 2em;
+    width: 45%;
+    height: auto;
+    text-align-last: left;
+    padding: 10px;
+    border-radius: 10PX;
+}
+#a2
+{
+    border-radius: 10px;
+    padding: auto;
+    width:100%;
+    height: auto;
+}
