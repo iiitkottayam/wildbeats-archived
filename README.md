@@ -1,3 +1,1 @@
-# wildbeats-1
-
-This Page contains the source code of WILDBEATS, cultural club of IIIT Kottayam, and committed branches with the official github page of iiitkottayam 
+A static webpage with clouds passing over the background(CSS - Animation) made during the construction of college club website.
